@@ -1,0 +1,39 @@
+#root {
+  background: url(https://i.pinimg.com/736x/89/72/0c/89720c5adc25a7a0df7cc6d961181972.jpg);
+}
+
+.App {
+  text-align: center;
+}
+.recipe {
+  height: 600px;
+  overflow-y: scroll;
+  margin: 52px 0px 0px;
+}
+input {
+  width: 20%;
+  padding: 10px 10px;
+}
+button {
+  margin-top: 20px;
+  width: 150px;
+  background-color: chocolate;
+  padding: 10px 10px;
+  margin-left: 5px;
+}
+.card-title.h5 :hover {
+  font-weight: 600;
+  font-family: Poppins, sans-serif !important;
+  color: #4d0c06;
+  text-transform: uppercase;
+}
+h1,
+p {
+  color: rgb(248, 249, 250);
+}
+
+.Header {
+  background: url(https://media.istockphoto.com/photos/open-old-vintage-book-with-spices-picture-id489930770?k=6&m=489930770&s=612x612&w=0&h=8RhGzUk4dGCvJSkTRxxdeVu8Nf8LEAGU93BVap9LOZQ=);
+  position: relative;
+  padding: 100px 0px;
+}
