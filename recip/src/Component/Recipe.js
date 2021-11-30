@@ -11,7 +11,7 @@ function recipes(props) {
       <Container>
         <Row>
           {recipes.map((recipe) => (
-            <Col sm={4}>
+            <Col sm={3}>
               <Card>
                 <Card.Img variant="top" src={recipe.recipe.image} />
                 <Card.Body>

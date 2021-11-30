@@ -6,8 +6,13 @@ function Header(props) {
     <div className="Header">
       <h1>Recipes</h1>
 
-      <input type="search" value={search} onChange={onInputChange} />
-      <button variant="outline-warning" onClick={onSearchClick}>
+      <input
+        className=""
+        type="search"
+        value={search}
+        onChange={onInputChange}
+      />
+      <button className="btn btn-warning btn-lg" onClick={onSearchClick}>
         Search
       </button>
     </div>
